@@ -1,0 +1,61 @@
+h1 {
+    text-align: center;
+}
+
+body {
+    margin: 0%;
+}
+
+.menu {
+    margin: 0%;
+    color: white;
+}
+
+header {
+    background-color: red;
+    padding: 10px;
+}
+
+nav {
+    background-color: grey;
+    padding: 10px 10px 2.5px 10px;
+}
+
+li, a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+#Dropdwon_1, #Dropdwon_2 {
+    display: none;
+    position: absolute;
+    color: blue;
+}
+
+#Dropdwon_1 li, #Dropdwon_2 li {
+    color: blue;
+    padding: 5px 10px 5px 0px;
+}
+
+#Dropdwon_2 li a, #Dropdwon_1 li a {
+    color: lightblue;
+}
+
+#Dropdwon_1 li:hover,  #Dropdwon_2 li:hover {
+    
+    background-color: black;
+}
+
+.menu > li {
+    display: inline-block;
+    padding: 5px 25px 5px 5px;
+}
+
+.menu > li:hover{
+    background-color: black;
+}
+
+.menu > li:hover #Dropdwon_1, .menu > li:hover #Dropdwon_2 {
+    display: block;
+}

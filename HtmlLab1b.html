@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            height: 0%;
+        }
+
+        #Bar_graph {
+            width: 280px;
+            background-color: whitesmoke;
+            margin-top: 15%;
+            margin-left: 40%;
+        }
+
+        #Bar_graph  article {
+            display: inline-block;
+        }
+
+        div {
+            width: 40px;
+            height: 300px;
+            margin: 20px;
+            background-color: rgb(202, 198, 192);
+        }
+
+        #bar1 {
+            width: 100%;
+            height: 70%;
+            background-color: white;
+            animation: barplot;
+            animation-duration: 2s;
+        }
+
+        @keyframes barplot {
+            0%{height:100% ;background-color:white ;}
+            100%{height:70% ;background-color:white ;}
+            
+        }
+
+        #bar2 {
+            width: 100%;
+            height: 60%;
+            background-color: white;
+            animation: barplot2;
+            animation-duration: 2s;
+        }
+
+        @keyframes barplot2 {
+            0%{height:100% ;background-color:white ;}
+            100%{height:60% ;background-color:white ;}
+            
+        }
+
+        #bar3 {
+            width: 100%;
+            height: 20%;
+            background-color: white;
+            animation: barplot3;
+            animation-duration: 3s;
+        }
+
+        @keyframes barplot3 {
+            0%{height:100% ;background-color:white ;}
+            100%{height:20% ;background-color:white ;}
+            
+        }
+
+        h5 {
+            text-align: center;
+        }
+
+        footer, p {
+            text-align: center;
+        }
+        section > h3 {
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+        <section id="Bar_graph">
+            <article>
+                <div>
+                    <article id="bar1"></article>
+                </div>
+                <h5>30%</h5>  <!-- Based on html5 recommendation adding the value as heading-->
+            </article>
+            <article>
+                <div>
+                    <article id="bar2"></article>
+                </div>
+                <h5>40%</h5>  <!-- Based on html5 recommendation adding the value as heading-->
+            </article>
+            <article>
+                <div>
+                    <article id="bar3"></article>
+                </div>
+                <h5>80%</h5>  <!-- Based on html5 recommendation adding the value as heading-->
+            </article>
+
+            <h3>Bar Plot</h3><!-- Based on html5 recommendation adding the value as heading-->
+        </section>
+
+    
+</body>
+</html>
